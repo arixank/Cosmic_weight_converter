@@ -37,7 +37,7 @@ elif user_input.upper() == "V":
     venus_weight = round(user_weight//9.8)*8.87
     print(f"Hey {name} , you weigh {venus_weight} Kg on Venus \n")
 elif user_input.upper() == "E":
-    print(f"You think I'm a fool !!! , {user_weight} Kg you'r too heavy for Earth !!!\n")
+    print(f"You think I'm a fool !!! {user_weight} Kg you'r too heavy for Earth !!!\n")
 elif user_input.upper() == "MA":
     mars_mass = round(user_weight//9.8)*3.711
     print(f" Hey {name} , you weigh {mars_mass} marshian on Mars !! \n")
@@ -57,5 +57,11 @@ elif user_input.upper() == "Q":
     print(f"Be carefull you may enconuter an Alien.............. bye....bye !!! \n")
 else:
     print("Ohh no , I'm sorry you are sucked up by a 'BLACK HOLE' !!!!! \n")
+
+exit_in = input("Thank you for using our software !! Press (Y) to exit \n")
+if exit_in.upper() == "y":
+    print("Bye")
+else:
+    print("You are an Alien or what ??")
 #end of computing
 #Thank you for coping our code , hope you add some more functions !!! 
