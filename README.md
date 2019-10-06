@@ -2,7 +2,7 @@
 This is a mini project to test your weight in the universe !!!
 
 © Compiler Bro's
-# edited by CodingMonkey
+# edited by CodingMonkey(that's me)
 ! This is a intro to the project :
 01. Just do as directed !!
 02. Don't worry about the messeges
